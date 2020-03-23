@@ -1,0 +1,11 @@
+div :nth-child(1) {
+  display: none;
+}
+
+div :nth-child(2) {
+  visibility: hidden;
+}
+
+div :last-child {
+  margin-top: 100px;
+}
