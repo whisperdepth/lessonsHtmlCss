@@ -10,6 +10,3 @@ li {
   list-style-type: none;
 }
 
-li:first-child{
-    padding-top: 9px;
-}
