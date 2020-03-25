@@ -10,6 +10,8 @@
 }
 
 .image-button {
+  top: auto;
+  left: auto;
   display: block;
   position: absolute;
   width: 200px;
