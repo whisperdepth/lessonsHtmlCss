@@ -17,7 +17,7 @@ input {
 .checkbox {
   margin: 16px;
   padding-left: 35px;
-  position: absolute;
+  position: relative;
   font-size: 24px;
 }
 
