@@ -42,6 +42,10 @@
   outline: none;
 }
 
+ .form-input[required] {
+        border: 3px solid #FF0000;
+      }
+
 .submit-button{
     width: 100%;
     height: 32px;
