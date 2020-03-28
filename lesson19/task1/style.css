@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 32px;
+}
+
+.container div {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  opacity: 0.5;
+  margin-bottom: 16px;
+  text-align: center;
+  line-height: 100px;
+  transition: width 2s, opacity 0.5s;
+}
+
+.rect:hover {
+  transition: width 2s, opacity 0.5s;
+  width: 100%;
+  opacity: 1;
+}
+
+.linear:hover {
+  transition-timing-function: linear;
+}
+
+.ease:hover {
+  transition-timing-function: ease;
+}
+
+.ease-in:hover {
+  transition-timing-function: ease-in;
+}
+
+.ease-out:hover {
+  transition-timing-function: ease-out;
+}
+
+.ease-in-out:hover {
+  transition-timing-function: ease-in-out;
+}
