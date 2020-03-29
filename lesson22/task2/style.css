@@ -11,27 +11,27 @@
   display: flex;
   background-color: #ff7f50;
   min-height: 200px;
-  flex-grow: 1;
 }
 
 .products-list {
   display: flex;
   background-color: #006400;
   min-height: 200px;
-  flex-grow: 1;
 }
 
 .news {
   display: flex;
   background-color: #0ff;
   min-height: 200px;
-  flex-grow: 1;
 }
 
 @media screen and (min-width: 600px) {
   .products {
     display: flex;
-    flex-grow: 2;
+  }
+  .navigation,
+  .products-list {
+    width: 50%;
   }
 }
 
@@ -39,6 +39,11 @@
   .content {
     display: flex;
   }
+  .products {
+    width: calc(100vw / 3 * 2);
+  }
 
-  
+  .news {
+    width: calc(100vw / 3);
+  }
 }
