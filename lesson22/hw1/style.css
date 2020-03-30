@@ -32,6 +32,7 @@ html {
 }
 
 .navigation {
+  padding: 0.5em;
   width: 20vw;
   visibility: hidden;
 }
