@@ -31,10 +31,13 @@ body {
   }
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
 @media screen and (orientation: landscape) {
   .container {
-    display: flex;
+    flex-direction: row;
   }
 }
 
-/*# sourceMappingURL=style.css.map */
