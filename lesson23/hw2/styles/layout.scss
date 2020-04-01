@@ -1,0 +1,52 @@
+@import "variables.scss";
+
+body {
+  display: flex;
+  flex-direction: column;
+  @include for-large-up {
+    flex-direction: row;
+  }
+}
+
+.nav-prod {
+  display: flex;
+  flex-direction: column;
+  @include for-medium-up {
+    flex-direction: row;
+  }
+  @include for-large-up {
+    width: calc(100vw / 3 * 2);
+  }
+}
+
+.part {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.nav {
+  background-color: #ff7f50;
+  @include for-medium-up {
+    width: 50%;
+  }
+}
+.products {
+  background-color: #006400;
+  @include for-medium-up {
+    width: 50%;
+  }
+}
+.news {
+  background-color: #0ff;
+}
+
+.text {
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #faebd7;
+}
